@@ -14,6 +14,8 @@
 		8756D462232BB4BE002D63A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8756D460232BB4BE002D63A5 /* LaunchScreen.storyboard */; };
 		8756D46D232BB4BE002D63A5 /* ImageIndexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756D46C232BB4BE002D63A5 /* ImageIndexAppTests.swift */; };
 		8756D478232BB4BE002D63A5 /* ImageIndexAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756D477232BB4BE002D63A5 /* ImageIndexAppUITests.swift */; };
+		8756D486232F9DE7002D63A5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756D485232F9DE7002D63A5 /* MyCollectionViewCell.swift */; };
+		8756D488232FA32E002D63A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756D487232FA32E002D63A5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8756D473232BB4BE002D63A5 /* ImageIndexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageIndexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8756D477232BB4BE002D63A5 /* ImageIndexAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIndexAppUITests.swift; sourceTree = "<group>"; };
 		8756D479232BB4BE002D63A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8756D485232F9DE7002D63A5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		8756D487232FA32E002D63A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8756D457232BB4BD002D63A5 /* AppDelegate.swift */,
 				8756D459232BB4BD002D63A5 /* ViewController.swift */,
 				8756D45B232BB4BD002D63A5 /* Main.storyboard */,
+				8756D487232FA32E002D63A5 /* DetailViewController.swift */,
+				8756D485232F9DE7002D63A5 /* MyCollectionViewCell.swift */,
 				8756D45E232BB4BE002D63A5 /* Assets.xcassets */,
 				8756D460232BB4BE002D63A5 /* LaunchScreen.storyboard */,
 				8756D463232BB4BE002D63A5 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				8756D45A232BB4BD002D63A5 /* ViewController.swift in Sources */,
 				8756D458232BB4BD002D63A5 /* AppDelegate.swift in Sources */,
+				8756D486232F9DE7002D63A5 /* MyCollectionViewCell.swift in Sources */,
+				8756D488232FA32E002D63A5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
